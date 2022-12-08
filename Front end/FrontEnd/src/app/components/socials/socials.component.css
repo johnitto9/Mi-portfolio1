@@ -1,0 +1,123 @@
+.btn{
+  color: aliceblue;
+  border-color: #26d926;
+  margin-left: 20px;
+
+}
+@media (max-width: 425px) {
+  .btn{
+    color: aliceblue;
+  border-color: #26d926;
+  margin-left: 0;
+
+  }
+}
+
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    background: #0e1a25;
+    font-size: 0.625em;
+  }
+  
+  .soc {
+    display: block;
+    font-size: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .soc li {
+    display: inline-block;
+
+  }
+  .soc svg {
+    scale: 80%;
+  }
+  .soc a, .soc svg {
+    display: inline-block;
+  }
+  .soc a {
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    justify-content: space-between;
+    margin-top: -10%;
+
+    
+  }
+  .soc svg {
+    height: 100%;
+    width: 100%;
+  }
+  .soc em {
+    font-size: 14px;
+    line-height: 0;
+    margin-top: -0.75em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+  }
+  
+  .icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover {
+    border-radius: 100%;
+    color: #0e1a25;
+    fill: #0e1a25;
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+    -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+    transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  }
+  
+  
+  .icon-10 {
+    color: #26d926;
+    fill: #26d926;
+  }
+  .icon-10:hover {
+    background: #26d926;
+  }
+  
+
+  
+  .icon-13 {
+    color: #26d991;
+    fill: #26d991;
+  }
+  .icon-13:hover {
+    background: #26d991;
+  }
+  
+
+  
+  .icon-15 {
+    color: #26d9d9;
+    fill: #26d9d9;
+  }
+  .icon-15:hover {
+    background: #26d9d9;
+  }
+
+  
+  .icon-17 {
+    color: #2691d9;
+    fill: #2691d9;
+  }
+  .icon-17:hover {
+    background: #2691d9;
+  }
+  
+ 
