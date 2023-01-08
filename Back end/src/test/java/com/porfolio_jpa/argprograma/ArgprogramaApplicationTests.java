@@ -1,10 +1,10 @@
-package com.JPA.portfolioArgPrograma;
+package com.porfolio_jpa.argprograma;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PortfolioArgProgramaApplicationTests {
+class ArgprogramaApplicationTests {
 
 	@Test
 	void contextLoads() {

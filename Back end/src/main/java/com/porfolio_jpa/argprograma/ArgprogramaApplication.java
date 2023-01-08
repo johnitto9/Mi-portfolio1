@@ -1,13 +1,13 @@
-package com.JPA.portfolioArgPrograma;
+package com.porfolio_jpa.argprograma;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PortfolioArgProgramaApplication {
+public class ArgprogramaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PortfolioArgProgramaApplication.class, args);
+		SpringApplication.run(ArgprogramaApplication.class, args);
 	}
 
 }

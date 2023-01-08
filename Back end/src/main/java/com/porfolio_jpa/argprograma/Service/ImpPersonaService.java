@@ -1,9 +1,9 @@
 
-package com.JPA.portfolioArgPrograma.Service;
+package com.porfolio_jpa.argPrograma.Service;
 
-import com.JPA.portfolioArgPrograma.Entity.Persona;
-import com.JPA.portfolioArgPrograma.Interface.IPersonaService;
-import com.JPA.portfolioArgPrograma.Repository.IPersonaRepository;
+import com.porfolio_jpa.argPrograma.Entity.Persona;
+import com.porfolio_jpa.argPrograma.Interface.IPersonaService;
+import com.porfolio_jpa.argPrograma.Repository.IPersonaRepository;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 
-package com.JPA.portfolioArgPrograma.Repository;
+package com.porfolio_jpa.argPrograma.Repository;
 
-import com.JPA.portfolioArgPrograma.Entity.Persona;
+import com.porfolio_jpa.argPrograma.Entity.Persona;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

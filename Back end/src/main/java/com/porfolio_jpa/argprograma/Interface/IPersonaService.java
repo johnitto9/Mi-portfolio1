@@ -1,7 +1,7 @@
 
-package com.JPA.portfolioArgPrograma.Interface;
+package com.porfolio_jpa.argPrograma.Interface;
 
-import com.JPA.portfolioArgPrograma.Entity.Persona;
+import com.porfolio_jpa.argPrograma.Entity.Persona;
 import java.util.List;
 
 
