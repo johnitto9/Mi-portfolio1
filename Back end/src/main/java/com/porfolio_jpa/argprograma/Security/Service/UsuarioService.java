@@ -14,12 +14,12 @@ public class UsuarioService {
     @Autowired
     IUsuarioRepository iusuarioRepository;
     
-    public Optional<Usuario> getByNombreusuario(String nombreusuario) {
-        return iusuarioRepository.findByNombreusuario(nombreusuario);
+    public Optional<Usuario> getByNombreUsuario(String nombreUsuario) {
+        return iusuarioRepository.findByNombreUsuario(nombreUsuario);
     }
     
-    public boolean existsByNombreusuario(String nombreusuario){
-        return iusuarioRepository.existsByNombreusuario(nombreusuario);
+    public boolean existsByNombreUsuario(String nombreUsuario){
+        return iusuarioRepository.existsByNombreUsuario(nombreUsuario);
     }
     
         public boolean existsByEmail(String email){

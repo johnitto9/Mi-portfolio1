@@ -8,12 +8,14 @@ import java.util.Set;
 public class NuevoUsuario {
     
     private String nombre;
-    private String nombreusuario;
+    private String nombreUsuario;
     private String email;
     private String password;
     private Set<String> roles = new HashSet<>();
-    public String getNombreusuario;
+    
+        public String getNombreUsuario;
     public String getEmail;
+
     
     //Getters & setters
 
@@ -25,12 +27,12 @@ public class NuevoUsuario {
         this.nombre = nombre;
     }
 
-    public String getNombreusuario() {
-        return nombreusuario;
+    public String getNombreUsuario() {
+        return nombreUsuario;
     }
 
-    public void setNombreusuario(String nombreusuario) {
-        this.nombreusuario = nombreusuario;
+    public void setNombreUsuario(String nombreUsuario) {
+        this.nombreUsuario = nombreUsuario;
     }
 
     public String getEmail() {
@@ -56,6 +58,10 @@ public class NuevoUsuario {
     public void setRoles(Set<String> roles) {
         this.roles = roles;
     }
+
+
+
+   
     
     
 }

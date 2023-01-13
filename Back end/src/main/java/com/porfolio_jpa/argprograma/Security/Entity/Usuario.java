@@ -22,9 +22,9 @@ public class Usuario {
     
     @NotNull
     private String nombre;
-   
+    @NotNull
     @Column(unique = true)
-    private String nombreusuario;
+    private String nombreUsuario;
     @NotNull
     private String email;
     @NotNull
@@ -38,12 +38,17 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(String nombre, String nombreusuario, String email, String password) {
+    public Usuario(String nombre, String nombreUsuario, String email, String password) {
         this.nombre = nombre;
-        this.nombreusuario = nombreusuario;
+        this.nombreUsuario = nombreUsuario;
         this.email = email;
         this.password = password;
     }
+
+
+    
+ 
+
     
     
     //Getters & Setters
@@ -64,13 +69,12 @@ public class Usuario {
         this.nombre = nombre;
     }
 
- 
-    public String getNombreusuario() {
-        return nombreusuario;
+    public String getNombreUsuario() {
+        return nombreUsuario;
     }
 
-    public void setNombreusuario(String nombreusuario) {
-        this.nombreusuario = nombreusuario;
+    public void setNombreUsuario(String nombreUsuario) {
+        this.nombreUsuario = nombreUsuario;
     }
 
     public String getEmail() {
@@ -96,5 +100,7 @@ public class Usuario {
     public void setRoles(Set<Rol> roles) {
         this.roles = roles;
     }
+
+
     
 }

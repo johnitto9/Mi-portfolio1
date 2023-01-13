@@ -54,13 +54,13 @@ public class AuthController {
         if(bindingResult.hasErrors())
             return new ResponseEntity(new Mensaje("Campos o email inválido"), HttpStatus.BAD_REQUEST);
         
-        if(usuarioService.existsByNombreusuario(nuevoUsuario.getNombreusuario))
+        if(usuarioService.existsByNombreUsuario(nuevoUsuario.getNombreUsuario()))
             return new ResponseEntity(new Mensaje("Nombre de usuario existente"), HttpStatus.BAD_REQUEST);
         
-        if(usuarioService.existsByEmail(nuevoUsuario.getEmail))
+        if(usuarioService.existsByEmail(nuevoUsuario.getEmail()))
             return new ResponseEntity(new Mensaje("Email existente"), HttpStatus.BAD_REQUEST);
         
-        Usuario usuario = new Usuario(nuevoUsuario.getNombre(), nuevoUsuario.getNombreusuario, nuevoUsuario.getEmail(), passwordEncoder.encode(nuevoUsuario.getPassword()));
+        Usuario usuario = new Usuario(nuevoUsuario.getNombre(), nuevoUsuario.getNombreUsuario(), nuevoUsuario.getEmail(), passwordEncoder.encode(nuevoUsuario.getPassword()));
         
         Set<Rol> roles = new HashSet<>();
         roles.add(rolService.getbyRolNombre(RolNombre.ROLE_USER).get());
@@ -79,7 +79,7 @@ public class AuthController {
         if (bindingResult.hasErrors())
             return new ResponseEntity(new Mensaje("Campos mal ingresados"), HttpStatus.BAD_REQUEST);
         Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(
-        loginUsuario.getNombreusuario(), loginUsuario.getPassword()));
+        loginUsuario.getNombreUsuario(), loginUsuario.getPassword()));
         
         SecurityContextHolder.getContext().setAuthentication(authentication);
         

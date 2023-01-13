@@ -5,18 +5,18 @@ import jakarta.validation.constraints.NotBlank;
 
 public class LoginUsuario {
     @NotBlank
-    private String nombreusuario;
+    private String nombreUsuario;
     @NotBlank
     private String password;
     
     //Getters y setters
 
-    public String getNombreusuario() {
-        return nombreusuario;
+    public String getNombreUsuario() {
+        return nombreUsuario;
     }
 
-    public void setNombreusuario(String nombreusuario) {
-        this.nombreusuario = nombreusuario;
+    public void setNombreUsuario(String nombreUsuario) {
+        this.nombreUsuario = nombreUsuario;
     }
 
     public String getPassword() {
@@ -26,7 +26,8 @@ public class LoginUsuario {
     public void setPassword(String password) {
         this.password = password;
     }
-    
+
+   
     
     
 }
