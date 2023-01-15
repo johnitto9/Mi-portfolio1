@@ -24,6 +24,7 @@ import { NeweducacionComponent } from './components/educacion/neweducacion.compo
 import { EditeducacionComponent } from './components/educacion/editeducacion.component';
 import { EditSkilsComponent } from './components/skils/edit-skils.component';
 import { NewSkilsComponent } from './components/skils/new-skils.component';
+import { EditAcercaDeComponent } from './components/acerca-de/edit-acerca-de.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { NewSkilsComponent } from './components/skils/new-skils.component';
     NeweducacionComponent,
     EditeducacionComponent,
     EditSkilsComponent,
-    NewSkilsComponent
+    NewSkilsComponent,
+    EditAcercaDeComponent
   ],
   imports: [
     BrowserModule,

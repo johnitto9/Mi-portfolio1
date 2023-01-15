@@ -6,20 +6,34 @@
 /*etiqueta de nombre */
 #nombre1{
     font-weight: bold;
-    margin-top: 20%;
+    margin-top: 12%;
+    margin-left: 25%;
 }
 
+#nombre2{
+    margin-left: 25%;
+}
 #acercademi1{
-    margin-top: 3%;
+    margin-top: 2%;
+    left: 10%;
 }
 
 /*estilo de foto de perfil*/
 #fotodeperfil{
+    margin-left: 10%;
     line-height: 0;
     border-radius: 100%;
     border-width:0.5vmax;
     border-style: solid;
     border-color: white;
+
+}
+
+.div1{
+    margin-left: 20%;
+    margin-top: 0.5%;
+
+
 }
 @media (min-width: 576px){
     #fotodeperfil{
